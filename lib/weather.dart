@@ -25,7 +25,7 @@ class _WeatherState extends State<Weather> {
   Future getWeather(String? myCity) async {
     try {
       http.Response response = await http.get(Uri.parse(
-          'https://api.openweathermap.org/data/2.5/weather?q=$myCity&appid=da40ebcad5c70f96d957021fcefdc718'));
+          'https://api.openweathermap.org/data/2.5/weather?q=$myCity&appid=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'));
       var results = jsonDecode(response.body);
       setState(() {
         temp = results['main']['temp'].toInt() / 10;
