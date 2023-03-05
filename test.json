@@ -1,0 +1,30 @@
+{
+  "coord": { "lon": 72.8479, "lat": 19.0144 },
+  "weather": [
+    { "id": 711, "main": "Smoke", "description": "smoke", "icon": "50d" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 303.14,
+    "feels_like": 303.88,
+    "temp_min": 302.09,
+    "temp_max": 303.14,
+    "pressure": 1017,
+    "humidity": 48
+  },
+  "visibility": 1700,
+  "wind": { "speed": 0, "deg": 0 },
+  "clouds": { "all": 20 },
+  "dt": 1677989390,
+  "sys": {
+    "type": 1,
+    "id": 9052,
+    "country": "IN",
+    "sunrise": 1677979531,
+    "sunset": 1678022117
+  },
+  "timezone": 19800,
+  "id": 1275339,
+  "name": "Mumbai",
+  "cod": 200
+}
