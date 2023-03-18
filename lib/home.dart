@@ -39,7 +39,7 @@ class _HomeState extends State<Home> {
                 TextFormField(
                   validator: (input) {
                     if (input!.isEmpty) {
-                      return 'Please enter the title of product';
+                      return 'Please enter City';
                     }
                     return null;
                   },
